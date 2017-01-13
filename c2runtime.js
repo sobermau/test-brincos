@@ -23492,8 +23492,5 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Flash.prototype.acts.Flash,
 	cr.system_object.prototype.exps.infinity,
 	cr.plugins_.Audio.prototype.acts.PlayByName,
-	cr.plugins_.Sprite.prototype.acts.SetOpacity,
-	cr.plugins_.admob.prototype.acts.PreloadInterstitial,
-	cr.plugins_.admob.prototype.cnds.OnInterstitialReceived,
-	cr.plugins_.admob.prototype.acts.ShowInterstitial
+	cr.plugins_.Sprite.prototype.acts.SetOpacity
 ];};
