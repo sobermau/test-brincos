@@ -12,6 +12,7 @@
 	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<plugin name="cordova-plugin-media" source="npm" />
 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
