@@ -23465,10 +23465,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
 	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
+	cr.plugins_.Touch,
 	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
 	cr.behaviors.Flash,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
@@ -23491,6 +23491,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.behaviors.Flash.prototype.acts.Flash,
 	cr.system_object.prototype.exps.infinity,
+	cr.plugins_.admob.prototype.acts.PreloadInterstitial,
 	cr.plugins_.Audio.prototype.acts.PlayByName,
-	cr.plugins_.Sprite.prototype.acts.SetOpacity
+	cr.plugins_.Sprite.prototype.acts.SetOpacity,
+	cr.plugins_.admob.prototype.cnds.OnInterstitialReceived,
+	cr.plugins_.admob.prototype.acts.ShowInterstitial
 ];};
